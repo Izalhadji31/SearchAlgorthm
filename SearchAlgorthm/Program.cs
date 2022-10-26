@@ -95,7 +95,7 @@ namespace SearchAlgorthm
                     ctr++;
                     if (arr[i] == item)
                     {
-                        Console.WriteLine("\n" + item.ToString() + "found st position" + (i + 1).ToString();
+                        Console.WriteLine("\n" + item.ToString() + "found st position" + (i + 1).ToString());
                         break;
                     }
                 }
@@ -132,9 +132,9 @@ namespace SearchAlgorthm
                             Console.WriteLine("....................");
                             myList.input();
                             myList.LinearSearch();
-                            break;\
+                            break;
                         case 2:
-                            Console.WriteLine("")
+                            Console.WriteLine("");
                             Console.WriteLine("....................");
                             Console.WriteLine("Binary Search");
                             Console.WriteLine("....................");
@@ -142,7 +142,7 @@ namespace SearchAlgorthm
                             myList.BinarySearch();
                             break;
                         case 3:
-                            Console.WriteLine("exit")
+                            Console.WriteLine("exit");
                             break;
                         default:
                             Console.WriteLine("Error");
